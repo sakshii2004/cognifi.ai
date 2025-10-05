@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "theme('colors.blue.600')",
+        primary: "theme('colors.purple.500')",
         secondary: "theme('colors.gray.300')",
         error: "#E9094C",
       },

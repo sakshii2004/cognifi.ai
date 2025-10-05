@@ -36,9 +36,9 @@ const Home = () => {
           </h2>
           <p className="text-sm sm:text-base lg:text-lg my-8 text-balance text-center w-[90%] xl:w-[60%]">
             Welcome to{" "}
-            <span className="text-primary font-calSans">SpendSmart</span>, your
+            <span className="text-primary font-calSans">Cognifi AI</span>, your
             ultimate solution for managing your personal finances effectively.
-            With SpendSmart, you can easily track your expenses, monitor your
+            With Cognifi AI, you can easily track your expenses, monitor your
             income, and stay on top of your financial goals.
           </p>
           <Button
@@ -62,7 +62,7 @@ const Home = () => {
         />
         <div className="hidden sm:flex justify-center items-center mt-4">
           <Link
-            to="https://github.com/SaxenaShourya/spend-smart"
+            to="https://github.com/sakshii2004/cognifi.ai"
             target="_blank"
           >
             <Button color="primary" radius="sm">

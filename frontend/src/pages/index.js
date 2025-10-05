@@ -10,3 +10,4 @@ export { default as Incomes } from "./ProtectedPages/Incomes";
 export { default as Expenses } from "./ProtectedPages/Expenses";
 export { default as Settings } from "./ProtectedPages/Settings";
 export { default as FinanceHealthSummary } from "./ProtectedPages/FinanceHealthSummary"; 
+export { default as ChatBot } from "./ProtectedPages/ChatBot"; 

@@ -3,7 +3,7 @@ import { Button } from "@nextui-org/react";
 import { Link, useNavigate } from "react-router-dom";
 
 import arrow from "../assets/arrow.gif";
-import logo from "/logo.webp";
+import logo from "/cognifi_logo.png";
 import { Register, Login } from "../utils/Icons";
 
 const NavBar = () => {
@@ -14,16 +14,16 @@ const NavBar = () => {
       <div className="flex items-center gap-x-3">
         <img
           src={logo}
-          alt="spend smart logo"
+          alt="cognifi ai logo"
           className="w-[2rem] md:w-[3rem]"
         />
         <h1
           className="text-xl sm:text-2xl md:text-3xl uppercase cursor-pointer"
           onClick={() => navigate("/")}
         >
-          Spend{" "}
+          Cognifi{" "}
           <span className="text-primary text-base sm:text-xl md:text-2xl">
-            Smart.
+            AI
           </span>
         </h1>
       </div>

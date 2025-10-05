@@ -16,6 +16,7 @@ import {
   IoPricetag,
   IoAddCircleOutline,
   IoEyeOutline,
+  IoChatbubblesOutline,
 } from "react-icons/io5";
 import { FaSnowboarding } from "react-icons/fa";
 import { RxDashboard } from "react-icons/rx";
@@ -54,3 +55,4 @@ export const EyeOutline = IoEyeOutline;
 export const UpdateProfile = FaUserPen;
 export const ResetPassword = MdLockReset;
 export const Health = FiActivity;
+export const Chat = IoChatbubblesOutline;

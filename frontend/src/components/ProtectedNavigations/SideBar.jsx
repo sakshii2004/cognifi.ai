@@ -9,6 +9,7 @@ import {
   Settings,
   ShutDown as Logout,
   Health,
+  Chat,
 } from "../../utils/Icons";
 import { openModal } from "../../features/logoutModal/logoutModalSlice";
 
@@ -64,6 +65,15 @@ const SideBar = () => {
           >
             <Health className="size-[1.5rem]" />
             Finance Health
+          </li>
+          <li
+            className={`link ${
+              isRouteActive("/dashboard/chatbot") ? "activeLink" : ""
+            }`}
+            onClick={() => navigate("/dashboard/chatbot")}
+          >
+            <Chat className="size-[1.5rem]" />
+            ChatBot
           </li>
         </div>
         <li

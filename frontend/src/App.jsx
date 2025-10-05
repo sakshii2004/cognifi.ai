@@ -14,7 +14,8 @@ import {
   Incomes,
   Expenses,
   Settings,
-  FinanceHealthSummary
+  FinanceHealthSummary,
+  ChatBot
 } from "./pages";
 import { PublicRoutes, ProtectedRoutes } from "./components/Guards";
 
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/dashboard" element={<Dashboard />}>
             <Route path="/dashboard" element={<MainDashboard />} />
             <Route path="/dashboard/finance-health" element={<FinanceHealthSummary />} />
+            <Route path="/dashboard/chatbot" element={<ChatBot />} />
             <Route path="/dashboard/incomes" element={<Incomes />} />
             <Route path="/dashboard/expenses" element={<Expenses />} />
             <Route path="/dashboard/settings" element={<Settings />} />
